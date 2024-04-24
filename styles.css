@@ -1,0 +1,59 @@
+body {
+     padding: 0; 
+     margin: 0%;
+    font-family: Arial, sans-serif;  
+    background-image: unset; 
+    background-image: url(img/unnamed.jpg); 
+    background-repeat: no-repeat; 
+background-position: center; 
+background-size: cover;
+ 
+}   
+
+header {
+    background-color: #4e0fe0; /* Color de fondo para el encabezado */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+#main-menu {
+    display: none; /* Oculta el menú por defecto */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color de texto para los enlaces */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4500; /* Cambia el color al pasar el ratón */
+}
+
+section {
+    padding: 100px;
+    text-align: center;
+    color: #faf4f4; /* Color de texto para la sección principal */
+} 
+  
+
+
+
+
